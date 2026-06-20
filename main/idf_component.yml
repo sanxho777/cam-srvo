@@ -1,0 +1,6 @@
+## IDF Component Manager manifest
+## Run `idf.py build` — the camera component is fetched automatically.
+dependencies:
+  idf: ">=5.1.0"
+  espressif/esp32-camera:
+    version: ">=2.0.9"
